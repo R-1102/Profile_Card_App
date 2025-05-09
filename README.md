@@ -1,16 +1,27 @@
-# profile_card_app
+# Profile Card App (Flutter)
 
-A new Flutter project.
+A simple Flutter application that displays a profile card using local and network images.
 
-## Getting Started
+## Screens
 
-This project is a starting point for a Flutter application.
+### Screen 1: Home
+- A basic screen with a button.
+- When the button is pressed, it navigates to the profile screen.
 
-A few resources to get you started if this is your first Flutter project:
+### Screen 2: Profile
+- Displays a profile card.
+- Includes:
+  - Local image using `AssetImage` inside `CircleAvatar`
+  - Network image using `Image.network` with `ClipRRect`
+  - Name and email
+  - layout using `Card`, `Column`, `EdgeInsets`.
+ 
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 Screenshot
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/bae7b428-edbe-49a3-bd54-c9901b61b250" height="500" Width="220"/>
+  <img src="https://github.com/user-attachments/assets/8071af24-4bd5-4570-a4b0-10afe5cc90a1" height="500"  Width="220"/>
+</p>
+
